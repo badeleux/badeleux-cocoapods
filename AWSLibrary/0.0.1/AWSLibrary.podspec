@@ -35,7 +35,8 @@ Pod::Spec.new do |s|
   # Specify the location from where the source should be retrieved.
   #
   s.source       = { :git => "https://github.com/Holdapp/AWSLibrary", :tag => "0.0.1" }
-
+  s.source_files = 'AWSlibrary'
+  s.requires_arc = true
 
   # If this Pod runs only on iOS or OS X, then specify the platform and
   # the deployment target.
@@ -92,7 +93,6 @@ Pod::Spec.new do |s|
 
   # If this Pod uses ARC, specify it like so.
   #
-  s.requires_arc = true
 
   # If you need to specify any other build settings, add them to the
   # xcconfig hash.
@@ -101,5 +101,5 @@ Pod::Spec.new do |s|
 
   # Finally, specify any Pods that this Pod depends on.
   #
-  # s.dependency 'JSONKit', '~> 1.4'
+  s.dependency 'AFNetworking'
 end
