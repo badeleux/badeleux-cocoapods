@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
 
   s.license      = 'MIT (example)'
   s.author       = { "badeleux" => "badeleux@gmail.com" }
-  s.source       = { :git => "https://github.com/Holdapp/AWSLibrary", :tag => "#{spec.version}" }
+  s.source       = { :git => "https://github.com/Holdapp/AWSLibrary", :tag => "#{s.version}" }
   s.source_files = 'AWSlibrary'
   s.requires_arc = true
 
