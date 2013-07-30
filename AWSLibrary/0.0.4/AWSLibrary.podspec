@@ -6,7 +6,7 @@
 #
 Pod::Spec.new do |s|
   s.name         = "AWSLibrary"
-  s.version      = "0.0.3"
+  s.version      = "0.0.4"
   s.summary      = "A short description of AWSLibrary."
   # s.description  = <<-DESC
   #                   An optional longer description of AWSLibrary
